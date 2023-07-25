@@ -5,11 +5,13 @@ path = "C:\\Users\\AK MD ANWARI FIKRI\\Downloads\\"
 filename = os.listdir(path)
 
 folders = {
-    "images": [".jpg", ".png", ".gif"],
+    "images": [".jpg", ".jpeg", ".png", ".gif"],
     "exe": [".exe", ".msi"],
     "videos": [".mp4", ".avi", ".mov"],
-    "office": [".docx", ".xlsx", ".pptx", ".pdf"]
+    "office": [".docx", ".xlsx", ".pptx", ".pdf"],
+    "zip": [".zip", ".rar", ".7z", ".tar", ".gz", ".tar.gz", ".tgz"]
 }
+
 
 for folder in folders:
     if not os.path.exists(os.path.join(path, folder)):
