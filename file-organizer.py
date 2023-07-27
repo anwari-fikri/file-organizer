@@ -1,15 +1,16 @@
 import os
 import shutil
 
-path = "C:\\Users\\AK MD ANWARI FIKRI\\Downloads\\"
+path = "C:\\Users\\fikri\\Downloads\\"
 filename = os.listdir(path)
 
 folders = {
     "images": [".jpg", ".jpeg", ".png", ".gif"],
     "exe": [".exe", ".msi"],
     "videos": [".mp4", ".avi", ".mov"],
-    "office": [".docx", ".xlsx", ".pptx", ".pdf"],
-    "zip": [".zip", ".rar", ".7z", ".tar", ".gz", ".tar.gz", ".tgz"]
+    "office": [".docx", ".xlsx", ".pptx", ".pdf", ".csv"],
+    "zip": [".zip", ".rar", ".7z", ".tar", ".gz", ".tar.gz", ".tgz"],
+    "code": [".ipynb"]
 }
 
 
